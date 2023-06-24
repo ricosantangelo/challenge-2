@@ -1,26 +1,31 @@
-/* * {
-    outline: 1px solid red;
-} */
+* {
+    //outline: 1px solid red;
+    font-family: 'Playfair Display', serif;
+    background-color: aquamarine;
+}
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(57, 57, 65);
-    color: white;
 }
 
 nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: large;
 }
 
 a {
-    color: white;
+
 }
 
 .banner {
-    background: rgb(68, 48, 48);
+    background-image: url(https://i.redd.it/k9tcf0jtck941.jpg);
+    background-size: cover;
+    background-position: center;
     height: 250px;
     display: flex;
     justify-content: flex-end;
@@ -28,7 +33,7 @@ a {
 }
 
 .banner h2 {
-    background: white;
+    
 }
 
 .row {
@@ -54,8 +59,7 @@ a {
 }
 
 .big-box h2 {
-    background-color: blue;
-    color: white;
+ 
 }
 
 .box {
@@ -68,22 +72,39 @@ a {
 .small-boxes {
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
+}
+
+.small-boxes h2 {
+
 }
 
 #work-1 {
-    background-image: url(https://placehold.co/600x400);
+    background-image: url(https://www.futurity.org/wp/wp-content/uploads/2019/04/flowers-cactus_1600.jpg);
     background-size: cover;
     background-position: center;
 }
 
-#work-2 {
-    background-image: url(https://placehold.co/600x400);
+#work-5 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d3/Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #work-3{
-    background-image: url(https://placehold.co/600x400);
+    background-image: url(https://naturalhistory.si.edu/sites/default/files/styles/hero/public/media/image/acevedo-16407sm.jpg.webp?itok=dfqe8W6R);
+    background-size: cover;
+    background-position: center;
+}
+
+#work-4{
+    background-image: url(https://www.rbgsyd.nsw.gov.au/getmedia/b916e96e-ae87-40d9-8351-74beeaeca823/Behind-the-Scenes-Glasshouse-Tour-november_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#work-2{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/686/62/484/white-bridge-wallpaper-preview.jpg);
     background-size: cover;
     background-position: center;
 }

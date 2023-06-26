@@ -92,5 +92,5 @@ nav {
 .contact-info {
     display: flex;
     flex-direction: row;
-    gap: 105px;
+    gap: 20px;
 }

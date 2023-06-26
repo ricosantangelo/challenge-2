@@ -1,5 +1,5 @@
-# challenge-2
-### Rico Santangelo Portfolio
+# Rico Santangelo Portfolio
+### challenge-2
 ## Description
 
 This repository contains the code for a portfolio website. The website gives contact information, as well as links to 5 works. It was made using HTML and CSS.

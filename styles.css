@@ -1,13 +1,15 @@
+/* Universal Styles*/
 * {
-    //outline: 1px solid red;
     font-family: 'Playfair Display', serif;
-    background-color: aquamarine;
+    background-color: mediumaquamarine;
 }
 
+/*Header Styles*/
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color:mediumaquamarine
 }
 
 nav {
@@ -15,11 +17,6 @@ nav {
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    font-size: large;
-}
-
-a {
-
 }
 
 .banner {
@@ -32,41 +29,30 @@ a {
     align-items: flex-end;
 }
 
-.banner h2 {
-    
-}
-
+/* Main Styles*/
 .row {
     display: flex;
     flex-direction: row;
 }
 
 .row h2 {
-    width: 25%;
+    width: 20%;
 }
 
-.row div {
-    width: 75%;
+.row section {
+    width: 80%;
 }
 
 .big-box {
     width: 100%;
     height: 200px;
-    background-color: red;
-    border: 1px solid black;
     display: flex;
     align-items: flex-end;
-}
-
-.big-box h2 {
- 
 }
 
 .box {
     width: 50%;
     height: 100px;
-    background-color: red;
-    border: 1px solid black;
 }
 
 .small-boxes {
@@ -75,36 +61,34 @@ a {
     align-items: flex-end;
 }
 
-.small-boxes h2 {
-
+#work-1, #work-2, #work-3, #work-4, #work-5 {
+  background-size: cover;
+  background-position: center;
 }
 
 #work-1 {
-    background-image: url(https://www.futurity.org/wp/wp-content/uploads/2019/04/flowers-cactus_1600.jpg);
-    background-size: cover;
-    background-position: center;
+  background-image: url(https://www.futurity.org/wp/wp-content/uploads/2019/04/flowers-cactus_1600.jpg);
+}
+
+#work-2 {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/686/62/484/white-bridge-wallpaper-preview.jpg);
+}
+
+#work-3 {
+  background-image: url(https://naturalhistory.si.edu/sites/default/files/styles/hero/public/media/image/acevedo-16407sm.jpg.webp?itok=dfqe8W6R);
+}
+
+#work-4 {
+  background-image: url(https://www.rbgsyd.nsw.gov.au/getmedia/b916e96e-ae87-40d9-8351-74beeaeca823/Behind-the-Scenes-Glasshouse-Tour-november_1.jpg);
 }
 
 #work-5 {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d3/Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg);
-    background-size: cover;
-    background-position: center;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d3/Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg);
 }
 
-#work-3{
-    background-image: url(https://naturalhistory.si.edu/sites/default/files/styles/hero/public/media/image/acevedo-16407sm.jpg.webp?itok=dfqe8W6R);
-    background-size: cover;
-    background-position: center;
-}
-
-#work-4{
-    background-image: url(https://www.rbgsyd.nsw.gov.au/getmedia/b916e96e-ae87-40d9-8351-74beeaeca823/Behind-the-Scenes-Glasshouse-Tour-november_1.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#work-2{
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/686/62/484/white-bridge-wallpaper-preview.jpg);
-    background-size: cover;
-    background-position: center;
+/* Footer Styles*/
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    gap: 105px;
 }
